@@ -93,8 +93,9 @@ y_pred=model.predict(x_test)
 After the model is fit the accuracy of the training data is 100% and the testing data is 92%. 
 92% of the time this model would correctly predict the status of the patient.
 """
-#Extra trees classifier
+
 """
+Extra trees classifier
 
 Here the extratrees classifier algorithm is used to fit a model
 (no parameter tuning is done)
@@ -122,7 +123,7 @@ print(y_pred)
 """
 Therefore, the extra trees classifier algorithm is used in this model to predict the status of the patient. 
 This model could be very helpful in early diagnosis of the disease.
-"
+"""
 
 
 
